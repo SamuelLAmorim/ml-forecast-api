@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard Financeiro</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+<h1>Seu Dashboard Financeiro</h1>
+
+<div class="card">
+    <h2>Total gasto</h2>
+    <p id="total"></p>
+</div>
+
+<div class="card">
+    <h2>Gastos por categoria</h2>
+    <canvas id="graficoCategoria"></canvas>
+</div>
+
+<div class="card">
+    <h2>Gastos mensais</h2>
+    <canvas id="graficoMensal"></canvas>
+</div>
+
+<div class="card">
+    <h2>Recomendações</h2>
+    <ul id="recomendacoes"></ul>
+</div>
+
+<div class="card">
+    <h2>Previsão próximo mês</h2>
+    <p id="previsao"></p>
+</div>
+
+<script src="app.js"></script>
+<script>
+carregarDashboard()
+</script>
+
+</body>
+</html>

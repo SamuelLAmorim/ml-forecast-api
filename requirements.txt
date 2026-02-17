@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+jinja2
+sqlalchemy
+pandas
+scikit-learn
+matplotlib
+joblib
+python-multipart
+scikit-learn
+numpy
+itsdangerous
