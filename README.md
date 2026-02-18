@@ -187,4 +187,8 @@ Amorim
 
 ## 📄 License
 
+<<<<<<< HEAD
 MIT License
+=======
+MIT License
+>>>>>>> 61bfd5a5 (Update README and project structure)
